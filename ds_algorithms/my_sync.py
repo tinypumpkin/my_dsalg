@@ -1,7 +1,6 @@
 import os
 from os import path
 import shutil
-import re
 
 def search_file(path,result):
     lists=os.listdir(path)
