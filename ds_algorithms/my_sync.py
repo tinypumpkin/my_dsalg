@@ -50,8 +50,7 @@ def move_file(path,output):
             os.removedirs(chi_dir)
     del_dir(path)
 
-
 if __name__ == "__main__":
-    inp=input("请输入输入：")
-    oup=input("请输入输出：")
+    inp=input("请输入文件：")
+    oup=input("请输入输出文件：")
     move_file(inp,oup)
